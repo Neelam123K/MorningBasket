@@ -68,8 +68,8 @@ const SidebarOption = ({ label, icon: Icon, expandable, children }) => {
 
 const SideBar = () => {
   return (
-    <aside className="w-64 h-screen bg-gray-900 text-gray-300 p-4 shadow-lg overflow-y-auto">
-      <h1 className="text-xl font-semibold text-white mb-4">Morning Basket</h1>
+    <aside className="w-64 h-screen bg-white-900 text-gray-300 p-4 shadow-lg overflow-y-auto">
+      <h1 className="text-xl font-semibold text-gray mb-4">Morning Basket</h1>
 
       <SidebarOption label="MAIN" />
       <p className="flex items-center gap-2 text-gray-400 text-sm py-2"><LayoutDashboard className="w-5 h-5" /> Dashboard</p>
